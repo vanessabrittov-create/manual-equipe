@@ -416,6 +416,7 @@ G.geral={n:"Guia geral",i:"star",bg:"var(--orange)",sub:"Como funciona uma festa
  {i:"camera",h:"Fotógrafo também é cliente",p:"Fotógrafos e prestadores indicam casas de festa. Atende bem. Eles sempre podem levar uma marmitinha."},
  {k:"navy",i:"heart-handshake",h:"Viu algo para fazer?",p:"Copo no chão, criança sozinha, mesa suja: resolve ou avisa quem resolve. Aqui ninguém diz “não é minha função”.",v:"Fazer juntos"},
  {k:"navy",i:"refresh-cw",h:"Precisa sair do teu lugar?",p:"Avisa o gerente e combina quem fica no teu lugar. Só sai depois que alguém assumir."},
+ {k:"orange",i:"utensils",h:"E se der fome durante a festa?",p:"Pode comer, mas longe dos clientes: nunca na frente deles e nunca na cozinha aberta. Come no lugar reservado para a equipe e só o que volta do salão."},
  {i:"wheat",h:"Alguém não pode comer algum alimento?",p:"Pode ser alergia ou intolerância, como ao glúten ou à lactose. O gerente avisa antes da festa. Não sabe o que tem no prato? Pergunta na cozinha antes de responder."},
  {i:"puzzle",h:"Tem criança autista na festa?",p:"O gerente avisa antes. Barulho, luz e toque do jeito que os pais pediram."},
  {i:"book-open",h:"Palavras da festa",html:det("book-open","Saiba mais","O que quer dizer cada coisa",`${dls(["<b>Reunião rápida:</b> a conversa com o gerente antes da festa começar.","<b>Trem do lanche:</b> a fila animada que leva as crianças até o lanche, depois do parabéns.","<b>Hora do doce:</b> quando os monitores servem gelatina e docinho para as crianças.","<b>Tábua de entrada:</b> a primeira tábua de petiscos que vai para as mesas.","<b>Mesa de antepastos:</b> mesa com petiscos montada antes da festa começar.","<b>Kit intolerante:</b> comida separada e identificada para quem não pode comer algum alimento.","<b>Pacote:</b> o que a família contratou (Super, Premium, Full…). Muda a comida e os extras.","<b>Excedente:</b> convidado a mais do que o pacote contratado.","<b>Isenta:</b> criança que não paga, pela idade."])}`)}
@@ -436,9 +437,6 @@ G.monitores={n:"Monitor",i:"baby",bg:"var(--green-d)",sub:"Criança segura, feli
 ],extra:{t:"Como atender crianças autistas",i:"puzzle",html:AUTISMO},quiz:[
  {q:"Tem 3 crianças no campinho e tu está no gira-gira, que está vazio.",o:["Fico no gira-gira, é o meu lugar","Vou para o campinho e aviso o gerente","Chamo as crianças do campinho para o gira-gira"],c:1,x:"Criança no campinho precisa de monitor junto. Brinquedo vazio pode esperar."},
  {q:"Um pai de uns 85 kg quer descer na tirolesa com o filho no colo.",o:["Deixa, ele é adulto e assume o risco","Não pode: passa de 80 kg e é uma pessoa por vez","Deixa só ele descer, sem o filho"],c:1,x:"Limite de 80 kg e uma pessoa por vez, sem exceção. Se insistir, chama o gerente."},
- {q:"Uma menina vai na tirolesa e só tem monitor menino ali.",o:["Ele ajusta tudo rapidinho, para não atrasar","Ele explica antes, ela passa as pernas sozinha e ele mexe só nas fivelas, pela frente","Ele pede para outra criança ajudar"],c:1,x:"Se ela ficar desconfortável, chama uma monitora ou a família."},
- {q:"Uma criança autista tapou os ouvidos e começou a chorar no parabéns.",o:["Leva ela para perto do bolo para se distrair","Fica perto com calma, leva para um canto tranquilo à vista e chama os pais","Pede para ela parar de chorar"],c:1,x:"Fala pouco, tira do barulho e chama a família."},
- {q:"Na despedida, uma criança diz que a tia está esperando lá fora.",o:["Leva ela até a tia, é rapidinho","Deixa ela ir, a tia está logo ali","Fica com ela na porta e chama quem trouxe ela ou o gerente"],c:2,x:"Criança só sai com o adulto responsável. E ninguém da equipe sai da festa com ela."}
 ]};
 G.recreacao={n:"Recreação",i:"music",bg:"#5B2E91",sub:"Tu faz a programação acontecer.",facts:[["Roupa","Camiseta de monitor e calça preta"],["Chegada","30 min antes"],["Festa de 4h","R$ 80 no parabéns · R$ 70 o 2º recreacionista"],["Festa de 3h","R$ 70 no parabéns · R$ 60 o 2º recreacionista"]],cards:[
  {k:"navy",i:"megaphone",h:"Tu conduz. O gerente coordena.",p:"Na hora da brincadeira, os monitores te seguem. Fora dela, quem organiza a equipe é o gerente."},
@@ -447,7 +445,6 @@ G.recreacao={n:"Recreação",i:"music",bg:"#5B2E91",sub:"Tu faz a programação 
  {k:"orange",i:"cake",h:"O parabéns é teu",p:"Tu reúne todo mundo e conduz. Depois, puxa o trem do lanche com os monitores e os garçons."},
  {k:"navy",i:"puzzle",v:"Entrar na brincadeira",h:"Criança autista: avisa antes",ls:["Avisa antes de trocar de atividade","Convida, mas não força","Barulho e luz do jeito que os pais pediram"]}
 ],extra:{t:"Como atender crianças autistas",i:"puzzle",html:AUTISMO},quiz:[
- {q:"Um monitor está no celular durante a tua brincadeira.",o:["Tu chama a atenção dele, tu é a chefe","Chama ele para a brincadeira e, se continuar, avisa o gerente","Ignora, não é contigo"],c:1,x:"Tu conduz a atividade. Quem cobra a equipe é o gerente."},
  {q:"Um pai pede uma música com palavrão no parabéns.",o:["Toca, ele é o cliente","Explica com jeito que a festa é das crianças e oferece outra parecida","Diz que não dá e segue"],c:1,x:"Sem palavrão. E sempre com jeito."},
  {q:"Tem uma criança autista e o parabéns vai começar com apito e luz apagada.",o:["Faz igual, é só um minuto","Segue o que os pais combinaram e avisa a criança antes","Pede para a família sair na hora"],c:1,x:"O combinado com os pais vale mais que o roteiro."}
 ]};
@@ -464,15 +461,11 @@ G.garcons={n:"Garçom",i:"utensils",bg:"var(--navy)",sub:"Ninguém fica com copo
  {k:"navy",i:"hourglass",h:"Última hora: passa em todas",p:"“Querem mais alguma coisa?” em cada mesa. A festa só acaba para o garçom quando acaba para o cliente."},
  {i:"lock",h:"Fechamento",ls:["Limpa as mesas conforme liberam","Lava o pote da água saborizada","Fecha o estoque com o gerente","Cadeiras só com o ok do gerente"]}
 ],extra:{t:"Bebidas e como servir",i:"wine",html:BEBIDAS},quiz:[
- {q:"Tu está com uma bandeja de pastel e um convidado pede refrigerante.",o:["Diz que não é contigo","Avisa o garçom da bebida ou leva tu mesmo, se ele estiver longe","Mostra a mesa de apoio para ele se servir"],c:1,x:"Aqui ninguém diz “não é minha função”."},
- {q:"O pastel acabou e faltaram 3 mesas.",o:["Na próxima rodada começo por elas e aviso a cozinha","Passo outro sabor nelas para compensar","Tudo bem, ninguém reparou"],c:0,x:"Todo sabor tem que chegar em todas as mesas."},
  {q:"Uma mãe foi dançar e deixou meio prato na mesa.",o:["Recolho, mesa limpa é regra","Deixo o prato e recolho só o que está vazio","Junto tudo num canto da mesa"],c:1,x:"Mesa limpa sem tirar o que ainda estão usando."},
- {q:"Uma convidada diz que não gosta de espumante seco.",o:["Oferece o Brut, que é o mais pedido","Oferece o Moscatel, que é doce e frutado","Diz que só tem cerveja"],c:1,x:"Moscatel é o mais doce. Nature e Brut são os secos."},
  {q:"Uma convidada pergunta se o salgado tem lactose.",o:["Digo que acho que não","Pergunto na cozinha antes e, se for o caso, peço o kit intolerante","Digo para ela não comer, por via das dúvidas"],c:1,x:"Nunca chuta ingrediente."},
- {q:"Mesa com 6 mães e a tábua de entrada está saindo.",o:["Levo 1, igual às outras mesas","Levo 2 e passo mais vezes por ali","Espero elas pedirem"],c:1,x:"Mesa de mães: atenção em dobro."}
 ]};
 G.cozinha={n:"Cozinha",i:"chef-hat",bg:"var(--red)",sub:"Comida certa, na hora certa.",facts:[["Roupa","Preto, sapato fechado e touca"],["Chegada","1 hora antes"],["Festa de 4h","R$ 70"],["Festa de 3h","R$ 70"],["Hora extra","R$ 20 por hora"]],cards:[
- {k:"red",i:"droplets",h:"Higiene na cozinha",no:["Anel, pulseira, relógio","Celular na cozinha","Comer o que não foi servido"],yes:["Cabelo preso e touca","Mãos lavadas toda hora","Unhas curtas e limpas"]},
+ {k:"red",i:"droplets",h:"Higiene na cozinha",no:["Anel, pulseira, relógio","Celular na cozinha","Comer na cozinha aberta ou na frente dos clientes"],yes:["Cabelo preso e touca","Mãos lavadas toda hora","Unhas curtas e limpas"]},
  {k:"plain",i:"list-ordered",h:"A ordem da comida",p:"Escolhe a casa em que tu vai trabalhar hoje:",html:tabs({
   "Boogabol":[rc({k:"bol",logo:BOL,h:"Boogabol: duas cozinhas",ls:["De dentro: chapa e fritadeira","Do salão: pizzas, assados e mesa de antepastos"]}),rc({k:"bol",logo:BOL,h:"A ordem no Boogabol",tl:[["1ª hora","Tábuas, assados, fritos e pizzas","Tábuas saem todas na primeira hora."],["Antes","1º prato quente","Um pouco antes do parabéns."],["Parabéns","Lanchinho das crianças","Depois, gelatina e docinho só para elas."],["Depois","Doces e 2º prato quente","Premium: prato diferente. Outros: repete."],["Fim","Sorvete, brownie e pizza doce","1 potinho de sorvete por criança, antes do brownie."]],after:"Festa Premium: a mesa de antepastos fica pronta quando a festa começa."})].join(""),
   "BoogaLand":rc({k:"land",logo:LAND,h:"A ordem na BoogaLand",tl:[["Início","Mesa de antepastos pronta","Tem que estar montada quando a festa começa."],["1ª hora","Salgados e tábuas","Conforme a demanda."],["Antes","1º prato quente","Um pouco antes do parabéns."],["Parabéns","Doces nas mesas","Na mesa principal e nas dos convidados."],["Fim","2º prato, brownie e pizza doce","O 2º prato pode sair antes, se o gerente decidir."]]}),
@@ -484,7 +477,6 @@ G.cozinha={n:"Cozinha",i:"chef-hat",bg:"var(--red)",sub:"Comida certa, na hora c
 ],quiz:[
  {q:"Hora do parabéns, cozinha lotada, e um pai pede estrogonofe sem batata palha.",o:["Agora não dá, é a hora mais corrida","Separa uma porção sem batata palha e manda","Manda com batata palha e avisa que dá para tirar"],c:1,x:"Pedido especial é parte do serviço."},
  {q:"Pediram kit intolerante para glúten, e a fritadeira está com os salgados normais.",o:["Frita no mesmo óleo, é rapidinho","Prepara separado, sem o mesmo óleo, e identifica","Avisa que hoje não tem como"],c:1,x:"Óleo e utensílio separados. Sempre identificado."},
- {q:"Festa Premium no Boogabol. Quando a mesa de antepastos tem que estar pronta?",o:["Quando a festa começa","Depois do primeiro prato quente","Quando o gerente pedir"],c:0,x:"Antepastos prontos no início da festa."}
 ]};
 G.recepcao={n:"Recepção",i:"door-open",bg:"#B8650F",sub:"A primeira e a última impressão da festa.",facts:[["Roupa","Tudo preto"],["Chegada","30 min antes"],["Festa de 4h","R$ 60"],["Hora extra","R$ 15 por hora"]],cards:[
  {k:"navy",i:"door-open",v:"Acolher com atenção",h:"O teu lugar é a porta",p:"Sempre perto da porta. Tu é a primeira e a última pessoa que a família vê. Um monitor te ajuda na chegada."},
@@ -496,7 +488,6 @@ G.recepcao={n:"Recepção",i:"door-open",bg:"#B8650F",sub:"A primeira e a últim
 ],quiz:[
  {q:"Uma família chega 1 hora depois do início e senta.",o:["Mostra a mesa e volta para a porta","Mostra a mesa e avisa os garçons na hora","Mostra o buffet para eles se servirem"],c:1,x:"Garçom leva bebida e tábua na hora."},
  {q:"Chegou um presente sem cartão.",o:["Coloca o nome de quem entregou antes de guardar","Guarda com os outros","Deixa para resolver no fim"],c:0,x:"Presente sem nome é presente perdido."},
- {q:"Os pais estão saindo.",o:["Entrega presentes nas sacolas e as marmitas","Combina de mandar as marmitas no dia seguinte","Espera eles pedirem"],c:0,x:"Tudo entregue antes de irem embora."}
 ]};
 G.gerente={n:"Gerente",i:"user",bg:"var(--green-d)",sub:"Tudo o que foi vendido acontece.",facts:[["Roupa","Tudo preto"],["Chegada","45 min antes"],["Festa de 4h","R$ 130"]],cards:[
  {i:"smartphone",h:"Celular liberado",p:"Para resolver a festa e fazer stories. Mas, na frente do cliente, com discrição."},
@@ -509,7 +500,6 @@ G.gerente={n:"Gerente",i:"user",bg:"var(--green-d)",sub:"Tudo o que foi vendido 
 ],quiz:[
  {q:"Os pais não reclamaram de nada até agora.",o:["Melhor não incomodar","Pergunta pelo menos 2 vezes na festa se está tudo certo","Pergunta só no fim"],c:1,x:"Perguntar mostra cuidado."},
  {q:"3 monitores conversando na copa e brinquedos vazios.",o:["Deixa, estão em pausa","Desfaz o grupinho e manda cada um para o seu lugar","Fala com eles no fim da festa"],c:1,x:"Cada um no seu posto."},
- {q:"O cliente quer pagar as bebidas em 3x.",o:["Pode","Bebida é à vista ou no crédito em 1x","Só no Pix"],c:1,x:"Pacote em até 2x. Bebida à vista ou crédito 1x."}
 ]};
 
 G.regras={n:"Regras e conduta",i:"shield-check",bg:"var(--navy)",sub:"O que vale para todo mundo, em qualquer casa.",html:()=>`
@@ -517,7 +507,8 @@ G.regras={n:"Regras e conduta",i:"shield-check",bg:"var(--navy)",sub:"O que vale
  <div class="stack">
  ${rc({k:"navy",i:"shirt",h:"Chegou na festa?",ls:["Entra pela Paul Harris, 70","Uniforme e pertences na salinha","Cabelo preso. Na cozinha e nos brinquedos, cabelo solto é risco.","Celular guardado. Só usa para stories ou para registrar um problema.","Procura o gerente da festa: ele se apresenta e faz a reunião rápida"]})}
  ${rc({k:"navy",i:"refresh-cw",h:"Precisa sair do teu lugar?",p:"Avisa o gerente e combina quem fica no teu lugar. Só sai depois que alguém assumir.",v:"Cuidar para todos aproveitarem"})}
- ${rc({k:"red",i:"ban",h:"O que não pode na festa?",ls:["Comer o que ainda não foi servido","Sentar ou encostar no salão, porque o cliente está vendo","Mexer no som (só o gerente e a recreação mexem)","Beber álcool trabalhando"]})}
+ ${rc({k:"red",i:"ban",h:"O que não pode na festa?",ls:["Comer na frente dos clientes ou na cozinha aberta","Sentar ou encostar no salão, porque o cliente está vendo","Mexer no som (só o gerente e a recreação mexem)","Beber álcool trabalhando"]})}
+ ${rc({k:"orange",i:"utensils",h:"Deu fome? Pode comer, no lugar certo",p:"A gente não proíbe. Mas longe dos clientes: nunca na frente deles e nunca na cozinha aberta. Come no lugar reservado para a equipe e só o que volta do salão."})}
  ${rc({i:"package",h:"O que pode levar no fim?",p:"Só o que o gerente liberar. Comida, bebida ou qualquer coisa da casa só sai com autorização, até a sobra."})}
  </div>
 
@@ -567,9 +558,19 @@ G.org={n:"Quem coordena",i:"users",bg:"var(--green-d)",sub:"Quem cuida de quê n
 `};
 const FUNCS=["monitores","recreacao","garcons","cozinha","recepcao","gerente"];
 const QGERAL=[
+ {q:"A festa começa às 15h e tu é da equipe (monitor, recreação, garçom ou recepção). Até que horas tu chega?",o:["15h, na hora da festa","14h30, 30 minutos antes","14h, uma hora antes"],c:1,x:"Equipe chega 30 min antes. A cozinha chega 1h antes e o gerente, 45 min."},
+ {q:"Por onde a equipe entra?",o:["Pela frente, junto com os convidados","Av. Paul Harris, 70: corredor branco em frente à Brigada","Pelo estacionamento dos clientes"],c:1,x:"A entrada da equipe é a mesma nas três casas. Fechado? Tenta pela frente ou liga."},
+ {q:"Qual é a roupa certa para trabalhar?",o:["Preto. Monitor e recreação usam a camiseta de monitor com calça preta","Qualquer roupa escura, cada um escolhe","Calça jeans e camiseta da casa"],c:0,x:"Garçom e cozinha usam sapato fechado. Cozinha ainda usa touca."},
+ {q:"Tu tem cabelo comprido. O que fazer antes da festa?",o:["Deixa solto, fica mais bonito","Prende o cabelo","Prende só se for trabalhar na cozinha"],c:1,x:"Cabelo preso sempre. Na cozinha e nos brinquedos, cabelo solto é risco."},
+ {q:"Chegou uma mensagem de uma amiga no teu celular durante a festa.",o:["Responde rapidinho no salão","Deixa guardado e responde depois","Responde só se a festa estiver calma"],c:1,x:"Celular guardado. Só usa para stories ou para registrar um problema."},
+ {q:"Tu vai chegar 20 minutos atrasado.",o:["Chega e explica na hora","Avisa antes, no WhatsApp","Pede para um colega avisar quando tu chegar"],c:1,x:"Atraso é avisado antes, ao gerente ou à Vanessa. Atraso grande é descontado."},
+ {q:"Tu confirmou a festa, mas na véspera não vai poder ir.",o:["Não aparece, alguém cobre","Avisa a Vanessa o quanto antes","Avisa na hora da festa"],c:1,x:"Quem confirma e não aparece não é chamado de novo, porque a festa fica sem gente."},
  {q:"A família chegou 20 minutos antes e a decoração ainda está sendo ajustada.",o:["Pede para esperarem lá fora","Deixa entrar, explica, oferece bebida e chama o gerente","Deixa entrar, mas bebida só depois do horário"],c:1,x:"Família pode entrar sempre. Bebida, sempre."},
- {q:"Tu vai chegar 20 minutos atrasado.",o:["Chega e explica na hora","Avisa antes, no WhatsApp","Pede para um colega avisar quando tu chegar"],c:1,x:"Atraso sempre avisado antes."},
  {q:"Uma criança pede para ir ao banheiro.",o:["Leva rapidinho, sozinho","Pergunta aos pais antes e não fica sozinho com ela em lugar fechado","Manda ela ir sozinha"],c:1,x:"Protege a criança e protege tu."},
+ {q:"Na despedida, uma criança diz que a tia está esperando lá fora.",o:["Leva ela até a tia, é rapidinho","Deixa ela ir, a tia está logo ali","Fica com ela na porta e chama quem trouxe ela ou o gerente"],c:2,x:"Criança só sai com o responsável. E ninguém da equipe sai da festa com ela."},
+ {q:"Tu está com fome no meio da festa, e a cozinha é aberta para o salão.",o:["Come ali mesmo, é rapidinho","Come só o que voltou do salão, no lugar reservado, longe dos clientes","Pega um prato novo na cozinha e come no salão"],c:1,x:"Pode comer, mas longe dos clientes: nunca na frente deles nem na cozinha aberta, e só o que volta do salão."},
+ {q:"No fim da festa sobrou pastel e tu quer levar para casa.",o:["Leva, ia ser jogado fora","Pergunta ao gerente antes","Leva se ninguém estiver vendo"],c:1,x:"Comida, bebida ou qualquer coisa da casa só sai com autorização."},
+ {q:"Uma criança caiu e está chorando.",o:["Chama outra criança para ajudar","Fica com ela, acalma e chama o gerente na hora","Espera ela parar de chorar"],c:1,x:"O gerente fala com a família."},
  {q:"Uma convidada pergunta quanto custa uma festa aqui.",o:["Passa o valor que tu lembra","Agradece e leva até o gerente","Diz para olhar no Instagram"],c:1,x:"A gente vende festa dentro da festa."}
 ];
 
